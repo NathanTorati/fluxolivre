@@ -58,7 +58,7 @@ class LoginPage extends StatelessWidget {
                   onPressed: () {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => TelaCadastro()),
+                      MaterialPageRoute(builder: (context) => CadastroScreen()),
                     );
                   },
                   child: const Text(
